@@ -12,10 +12,11 @@ public:
             int next=i+1,c=1;
             while(m[next])
             {
-                c++;
-                next++;;
+                c=c+1;
+                next=next+1;
             }
-            ans=max(ans,c);
+            if(c>ans)
+                ans=c;
         }
         return ans;
     }
