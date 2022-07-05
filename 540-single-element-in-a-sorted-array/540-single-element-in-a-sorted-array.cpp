@@ -11,6 +11,6 @@ public:
             if(nums[mid]==nums[t]) l = mid+1;
             else r = mid;
         }
-        return nums[l];
+        return nums[r];
     }
 };
