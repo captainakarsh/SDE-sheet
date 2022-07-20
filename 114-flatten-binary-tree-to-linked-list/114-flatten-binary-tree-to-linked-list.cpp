@@ -19,7 +19,6 @@ public:
 				t = t->right;
 			t->right = root->right;
 		}
-
         if(root->left)
 		    root->right = root->left;
 		root->left = NULL;
