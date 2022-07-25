@@ -21,7 +21,7 @@ public:
     }
     
     int add(int val) {
-        if(q.size()==0 or q.size()<k)
+        if(q.size()<k)
         {
             q.push(val);
             return q.top();
